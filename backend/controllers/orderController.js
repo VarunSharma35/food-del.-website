@@ -6,7 +6,7 @@ import Stripe from "stripe";
 const stripe = new Stripe("your-stripe-secret-key");
 
 const placeOrder = async (req, res) => {
-    const frontend_url = "http://localhost:5173";
+    const frontend_url = "https://food-del-frontend-q1dk.onrender.com";
 
     try {
         // Extract payment method
